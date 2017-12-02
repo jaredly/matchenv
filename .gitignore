@@ -4,3 +4,5 @@ _build
 lib
 index.native
 .merlin
+src/index.cmi
+src/index.cmo

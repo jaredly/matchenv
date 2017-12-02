@@ -54,7 +54,7 @@ let getenv_mapper = (argv) =>
                 )
               | [
                   {
-                    pc_lhs: {ppat_desc: Ppat_constant(Const_string(s, _))},
+                    pc_lhs: {ppat_desc: Ppat_constant(Pconst_string(s, _))},
                     pc_rhs: {pexp_desc: Pexp_construct(moduleNameIdent, _)}
                   },
                   ...rest
